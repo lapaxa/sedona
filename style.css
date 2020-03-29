@@ -594,7 +594,7 @@ footer p{
     margin-bottom: 13px;
 }
 .payment-button{
-    display: inline-block;
+    display: block;
     text-decoration: none;
     color: white;
     font-size: 14px;
@@ -603,7 +603,9 @@ footer p{
     border: 2px solid white;
     margin-top: 15px;
     margin-bottom: 33px;
-    margin-left: 80px;    
+    margin-left:auto;
+    margin-right: auto;
+    width: 70px;
 }
 .payment-button:hover{
     background-color: white;
