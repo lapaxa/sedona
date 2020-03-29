@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Sedona</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sedona.css">
+  </head>
+  <body>
+    <div class="shadow container">
+      <header class="container">
+            <ul class="menu">
+                <li class="left"><a id="head-menu-info" href="#">Информация</a></li>
+                <li class="left"><a href="#photo-first">Фото и видео</a></li>
+                <li class="right"><a href="#map">Карта штата</a></li>
+                <li class="right"><a id="head-menu-hotels" href="#hotels-main">Гостиницы</a></li>
+            </ul>
+          <div class="logo"></div>
+      </header>
+      <main class="container main visible">
+          <div class="promo">
+              <div class="welcome image-text"></div>
+              <div class="to-the image-text"></div>
+              <div class="block image-text"></div> 
+              <div class="sedona image-text"></div>                           
+              <div class="because image-text"></div>
+              <div class="bottom image-text"></div>
+          </div>
+          <div class="text container">
+              <p>Седона - небольшой городок в аризоне, заслуживающий большего!</p>
+              <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон</p>
+          </div>
+          <div class="colums">
+              <div id="photo-first" class="photo-first">
+                <div class="card">
+                  <p class="head">Настоящий городок</p>
+                  <p class="number">- №1 -</p>
+                  <p class="discription">Седона - не аттракцион для туристов,
+                    там течет своя жизнь</p>
+                </div>
+                <div class="photo1"></div>
+              </div>
+              <div class="opportunity">
+                
+                      <div class="card1">
+                        <img class="icon" src="icon-1.svg">
+                        <p class="top top-logo">Жилье</p>
+                        <p class="base-text">Рекомендуем пожить в настоящем мотеле,
+                             все как в кино!</p>
+                      </div>
+                      <div class="card1">
+                        <img class="icon" src="icon-2.svg">
+                        <p class="top top-logo">Еда</p>
+                        <p class="base-text">Всегда заказывайте фирменный бургер,
+                            вы не разочаруетесь!</p>
+                        </div>
+                      <div class="card1">
+                        <img class="icon" src="icon-3.svg">
+                        <p class="top top-logo">Сувениры</p>
+                        <p class="base-text">Не только китайского, но и местного производства!</p>
+                      </div>
+                  
+              </div>
+              <div class="photo photo-second">                
+                <div class="card card2">
+                  <p class="head">Там есть мост дьявола</p>
+                  <p class="number">- №2 -</p>
+                  <p class="discription">Да, по нему можно пройти! Если 
+                      конечно вы осмелитесь</p>
+                </div>
+                <div class="photo2"></div>
+              </div>
+
+              <div class="opportunity opportunity-bottom">                
+                   <div class="card card3">
+                      <p class="top">Небольшая площадь</p>
+                      <p class="number2">- №3 -</p>
+                      <p class="base-text base-text3">Все достопримечательности находятся очень близко</p>
+                    </div>
+                    <div class="card card3">
+                      <p class="top">Красивая дорога</p>
+                      <p class="number2">- №4 -</p>
+                      <p class="base-text base-text3">Ехать в седону из лас-вегаса совсем не скучно</p>
+                    </div>
+                    <div class="card card3">
+                      <p class="top">Мало туристов</p>
+                      <p class="number2">- №5 -</p>
+                      <p class="base-text base-text3">Большинство едет в гранд каньон и толпится там</p>
+                    </div>                
+              </div>
+          </div>
+          <div class="book">
+              <div class="book-head">Заинтересовались?</div>
+              <div class="book-text">укажите предполагаемые даты поездки, <br> и мы покажем вам лучшие
+                  предложения гостиниц в седоне
+              </div>
+              <div class="book-button button"><a href=#>Поиск гостиницы в седоне</a></div>              
+          </div>
+          <div class="map" id="map">
+            <div class="type form">
+                <div class="arrive">
+                <label for="date">Дата заезда</label>
+                <input type="date" class="date">
+            </div>
+            <div class="type quit">
+                <label for="date">Дата выезда</label>
+                <input type="date" class="date">
+            </div>
+            <div class="people-form">
+              <div class="type2 adult">
+                  <label for="number">Взрослые:</label>
+                  <div class="num2 minus"></div>
+                  <input type="number" class="num">
+                  <div class="num2 plus"></div>
+              </div>
+              <div class="type2 children">
+                  <label for="number">Дети:</label>
+                  <div class="num2 minus"></div>
+                  <input type="number" class="num">
+                  <div class="num2 plus"></div>
+              </div>
+            </div>
+            <a  href=# class="button-form">Найти</a>
+            </div>
+            <!--Гостиницы--> 
+            
+            
+          </div>
+      </main>
+      <div class="hotels-main container" id="hotels-main">
+              <div class="choise">
+                <div class="hotels-properties">
+                  <div class="infrastructure">
+                    <h4 class="infrastructure-head">Инфраструктура</h4>
+                    <div class="structure">
+                      <div class="structure-item">               
+                        <label class="structure-label" for="pool">
+                          <input class="hotel-checkbox"  type="checkbox" id="pool"/> 
+                          <span class="custome-check-box"></span>
+                          <span class="item-name">Бассейн</span>
+                        </label>
+                      </div>
+                      <div class="structure-item">                      
+                        <label class="structure-label" for="parking">
+                          <input class="hotel-checkbox" type="checkbox" id="parking" /> 
+                          <span class="custome-check-box"></span>
+                          <span class="item-name">Парковка</span>
+                        </label>
+                      </div>
+                      <div class="structure-item">                      
+                        <label class="structure-label" for="internet">
+                          <input class="hotel-checkbox" type="checkbox" id="internet" /> 
+                          <span class="custome-check-box"></span>
+                          <span class="item-name">WI-FI</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="type-hotels">
+                    <h4 class="infrastructure-head">Тип жилья</h4>
+                    <div class="structure-item">                    
+                      <label class="structure-label" for="hotel">
+                        <input class="hotel-checkbox" type="checkbox" id="hotel" /> 
+                        <span class="custome-check-box"></span>
+                        <span class="item-name">Гостиница</span>
+                      </label>
+                    </div>
+                    <div class="structure-item">                    
+                      <label class="structure-label" for="motel">
+                        <input  class="hotel-checkbox" type="checkbox" id="motel" /> 
+                        <span class="custome-check-box"></span>
+                        <span class="item-name">Мотель</span>
+                      </label>
+                    </div>
+                    <div class="structure-item">                    
+                      <label class="structure-label" for="apartment">
+                        <input class="hotel-checkbox" type="checkbox" id="apartment" /> 
+                        <span class="custome-check-box"></span>
+                        <span class="item-name">Апартаменты</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="payment">
+                  <h4 class="payment-header">Стоимость в сутки (Р):</h4>
+                  <div class="payment-count">
+                    <span>от 0</span>
+                    <span>до 3000</span>
+                  </div>
+                  <div class="counter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23"><path opacity=".3" fill="#ABABAB" d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"/><circle fill="#FFF" cx="10" cy="10" r="10"/><circle fill="#ABABAB" cx="10" cy="10" r="2"/></svg>
+                    <span class="line"></span>
+                    <span class="line-bottom"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 20 23"><path opacity=".3" fill="#ABABAB" d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"/><circle fill="#FFF" cx="10" cy="10" r="10"/><circle fill="#ABABAB" cx="10" cy="10" r="2"/></svg>
+                  </div>
+                  <a href="#" class="payment-button">Показать</a>
+                </div>
+              </div>
+              <div class="sort-menu">
+                <div class="sort-menu-left">
+                  <span class="sort-menu-header">Найдено: 3</span>
+                  <span>Сортировка:</span>
+                  <span>По цене</span>
+                  <span class="type-sorting">По типу</span>
+                  <span class="type-sorting">По-рейтингу</span>
+                </div>
+                <div class="sort-menu-button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path id="up-icon" fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path id="down-icon" fill="#231F20" d="M5.5 10L0 0h11"/></svg>
+                </div>
+              </div>
+              <div class="hotels">
+
+                <div class="hotel-item">
+                  <div class="hotel-item-main">
+                    <img class="hotel-image" src="amara.png">
+                    <div class="hotel-info">
+                      <a href="#" class="hotel-item-name">amara resort & spa</a>
+                      <div class="hotel-item-name-type">
+                        <p class="hotel-text">гостиница</p>
+                        <p class="hotel-text">от 4000 Р.</p>
+                      </div>
+                      <button class="hotel-button-blue">Подробнее</button>
+                      <button class="hotel-button-brown">Забронировать</button>
+                    </div>
+                  </div>
+                  <div class="hotel-item-add">                    
+                    <div class="hotel-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                    </div>
+                    <span class="hotel-raiting">Рейтинг: 8.5</span>
+                  </div>
+                </div>
+
+                <div class="hotel-item">
+                  <div class="hotel-item-main">
+                    <img class="hotel-image" src="desert.png">
+                    <div class="hotel-info">
+                      <a href="#" class="hotel-item-name">desert quail inn</a>
+                      <div class="hotel-item-name-type">
+                        <p class="hotel-text">мотель</p>
+                        <p class="hotel-text">от 3000 Р.</p>
+                      </div>
+                      <button class="hotel-button-blue">Подробнее</button>
+                      <button class="hotel-button-brown">Забронировать</button>
+                    </div>
+                  </div>
+                  <div class="hotel-item-add">                     
+                    <div class="hotel-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                    </div>
+                    <span class="hotel-raiting">Рейтинг: 8.9</span>
+                  </div>
+                </div>
+
+                <div class="hotel-item">
+                  <div class="hotel-item-main">
+                    <img class="hotel-image" src="villas.png">
+                    <div class="hotel-info">
+                      <a href="#" class="hotel-item-name">villas at poco diablo</a>
+                      <div class="hotel-item-name-type">
+                        <p class="hotel-text">апартаменты</p>
+                        <p class="hotel-text">от 2000 Р.</p>
+                      </div>
+                      <button class="hotel-button-blue">Подробнее</button>
+                      <button class="hotel-button-brown">Забронировать</button>
+                    </div>
+                  </div>
+                  <div class="hotel-item-add">                    
+                    <div class="hotel-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17"><path fill="#81B3D2" d="M9.002 0l2.126 6.494h6.877l-5.564 4.012L14.566 17l-5.564-4.013L3.438 17l2.126-6.494L0 6.494h6.878z"/></svg>
+                    </div>
+                    <span class="hotel-raiting">Рейтинг: 9.2</span>
+                  </div>
+                </div>
+              </div>
+      </div>
+      <footer>
+                <p>#visitsedona</p>
+                <div class="social">          
+                <a class="social-logo" href="#">twitter</a>
+                <a class="social-logo" href="#">facebook</a>
+                <a class="social-logo" href="#">youtube</a>
+                </div>
+                <a class="academy" href="#">website by</a>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      const info = document.querySelector('#head-menu-info');
+      const hotels = document.querySelector('#head-menu-hotels');
+      const infoBlock = document.querySelector('.container.main');
+      const hotelsBlock = document.querySelector('.hotels-main.container');
+      
+      info.addEventListener('click', (e) => {
+      e.preventDefault();
+      infoBlock.classList.add('visible');
+      hotelsBlock.classList.remove('visible');
+      })
+      hotels.addEventListener('click', (e) => {
+      e.preventDefault();
+      infoBlock.classList.remove('visible');
+      hotelsBlock.classList.add('visible');
+      })
+    </script>
+  </body>
+</html>
